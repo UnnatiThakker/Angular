@@ -106,6 +106,18 @@ The downside is parent component does not have access to the child component's p
 - [ ] Task #2 [@Name](https://help.nuclino.com/988f802d-mention-a-team-member) 
 - [ ] Task #3 [@Name](https://help.nuclino.com/988f802d-mention-a-team-member) 
 
+# Directives
+
+Classes to add additional behavior to elements.
+
+## Types of Directives
+
+1. Components - template based
+2. Attribute Directives - changes appearance or behavior of element, component, or another directive. Ex: NgClass, NgStyle, NgModel
+3. Structural Directives - changes DOM layouts by adding or removing DOM elements. Ex: NgIf, NgFor, NgSwitch
+
+# Dependency Injection
+	
 # Refrences
 
 * [Angular](https://angular.io/guide)
