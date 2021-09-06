@@ -218,4 +218,4 @@ It provides utility functions that can be used for:
 
 * [Angular](https://angular.io/guide)
 * [Rxjs](https://rxjs.dev/guide/overview)
-* ...
+* [Performance, Lazy Loading, Change Detection](https://medium.com/@unnati.thakker.raval/optimize-your-angular-application-947f1cbf9114) 
