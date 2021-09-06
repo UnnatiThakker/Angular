@@ -1,5 +1,6 @@
 # Angular
 > **A design framework and development framework to create efficient and sophisticated SPA.**
+> Typescript based framework
 
 ## Angular Applications Essentials/Core Ideas
 
@@ -20,7 +21,7 @@ It consists of:
 * selector
 * HTML template
 * styles
-* provides
+* providers
 * A typescript class to define it's behaviour 
 
 Two ways to create:
