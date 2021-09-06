@@ -187,6 +187,20 @@ which is beed created for every element and can be configuered inside component 
 
 [For More Details on DI](https://blog.thoughtram.io/angular/2015/05/18/dependency-injection-in-angular-2.html)	
 	
+### How Angular results these dependencies?
+
+When component declare some dependency, angular first of all tries to resolve it in its own element injector, means element injector of this component which declare this dependency. And if there is no provider for it, angular asks a parent element injector and it goes up, up, and up, until it finds it. If it can't find, it goes back to the same place where its started and tries to resolve it in model injector.If it doesn't find there then will give error 'No Provider found'. Otherwise runs the code.
+
+### Resolution Modifiers
+1. @Optional()
+If it can't resolved at runtime, Angular simply resolves the service as null without error.
+2. @Self()
+Angular will look at the element injector for the current component of directive.
+3. @Skipself()
+Opposite to @self(). It will skip Element Injector for the current component and will start looking from a parent.
+4. @host()
+designate a component as the last stop in the injector tree when searching for providers.	
+	
 # Refrences
 
 * [Angular](https://angular.io/guide)
