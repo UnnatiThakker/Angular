@@ -201,8 +201,21 @@ Opposite to @self(). It will skip Element Injector for the current component and
 4. @host()
 designate a component as the last stop in the injector tree when searching for providers.	
 	
+# Rxjs
+library which implements a concept of Reactive Programming and this library is heavily used in angular application.
+You can compose asyncronous and event-based programs using observable sequences.
+It provides utility functions that can be used for:
+- Converting existing code for async operations into observables
+- Iterating through the values in a stream
+- Mapping values to different types
+- Filtering streams
+- Composing multiple streams
+
+
+[Useful Operatos](https://netbasal.com/rxjs-six-operators-that-you-must-know-5ed3b6e238a0)	
+	
 # Refrences
 
 * [Angular](https://angular.io/guide)
-* ...
+* [Rxjs](https://rxjs.dev/guide/overview)
 * ...
