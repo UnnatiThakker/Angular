@@ -1,6 +1,18 @@
 # Angular
-> **A design framework and development framework to create efficient and sophisticated SPA.**
-> Typescript based framework
+> **A design framework which is based on Typescript.
+> provides efficient way to create SPA applications.**
+> It is collection of well-integrated libraries with features like routing, forms, directives, etc.
+
+## Advantages
+- First Class Typescript support
+- Super Powerful CLI
+- Dependency Injection
+- All-in One
+
+## Disadvantages
+- Complexity
+- Bundle Size
+- Smaller Community
 
 ## Angular Applications Essentials/Core Ideas
 
